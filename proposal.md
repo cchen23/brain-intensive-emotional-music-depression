@@ -1,5 +1,5 @@
 # Project Proposal
-**Project Name:** Auditory Stimuli in Depression
+**Project Name:** Auditory Stimuli (with)in Depression
 
 **Contact information:** cathychen2357@gmail.com
 
