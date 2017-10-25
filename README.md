@@ -1,2 +1,11 @@
 # brain-intensive-emotional-music-depression
-Online Brain Intensive Collaboration
+
+## Research Design
+Data from 19 individuals with depression (MDD) and 20 never-depressed control participants (ND) listened to positive and negative emotional musical and nonmusical stimuli during fMRI scanning will be downloaded from OpenfMRI. A pre-processing pipeline will be based on Nipype routine, followed by a 2x2 factorial mixed design (Depression x emotion).
+
+## Statistical Analysis
+Statistical contrasts were conducted using multiple regression analysis with the general linear model (GLM). Regressors representing the experimental conditions of interest were modeled with a hemodynamic response filter and entered into multiple regression analysis using a two-stage mixed-effects model. Motion estimates were also entered into the model as nuisance regressors. We will apply whole brain exploratory analyses and a region of interest (ROI) analysis focused on regions implicated in emotion processing in depression, including ACC (Brodmann areas (BA) 32 and 33, sgACC (BA25), and striatum (amygdala, caudate, nucleus accumbens, and putamen), and combined into a single ACC/striatum mask. Main effects of Valence (Positive, Negative) and Stimulus Type (Musical, Non-musical), and the interaction of Valence and Stimulus Type were assessed over the whole brain in the ND group, and also in the ACC/striatum ROI mask to confirm activation to the task within the ACC and striatum. Whole brain and ROI comparisons were also conducted between ND and MDD groups to determine whether depression status interacted with Valence or Stimulus Type within these critical regions.
+
+
+## Theoretical Motivation
+The aim of this project is to build a reproducible pipeline that analyzes differences in neural reactions to emotional and non-emotional auditory stimuli in individuals with and without depression, using the following dataset: https://openfmri.org/dataset/ds000171/. We predict that activation within the ACC and striatum elicited by emotionally evocative auditory stimuli will differ between the musical and nonmusical auditory-processing stimulus types in never-depressed (ND) control participants. Furthermore, individuals with depression will show greater responsiveness to negative stimuli and reduced responsiveness to positive stimuli in ACC and striatum when compared with ND control participants.
